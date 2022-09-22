@@ -1,0 +1,8 @@
+function countBy(initial){
+
+return function(num)
+{
+    initial =initial +num;
+    return initial;
+}
+}
