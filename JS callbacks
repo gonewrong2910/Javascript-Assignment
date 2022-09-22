@@ -1,0 +1,7 @@
+function callThisFnBack(num, numfn) {
+    return numfn(num);
+}
+
+function numfn(num){
+    return num+6;
+}
