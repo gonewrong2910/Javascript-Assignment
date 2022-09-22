@@ -1,0 +1,9 @@
+function generateOrder(){
+let prefix = "Total orders = ";
+let count=0;
+let total=function(){
+    count ++;
+    return prefix + count;
+}
+return total;
+}
